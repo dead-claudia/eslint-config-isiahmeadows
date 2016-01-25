@@ -20,8 +20,10 @@ function copyObject(dest, src, key) {
     src = src[key]
     dest = dest[key]
 
-    for (var prop in src) if (hasOwn.call(src, prop)) {
-        copySingle(dest, src, prop)
+    for (var prop in src) {
+        if (hasOwn.call(src, prop)) {
+            copySingle(dest, src, prop)
+        }
     }
 }
 
