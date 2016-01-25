@@ -1,5 +1,7 @@
 # eslint-config-isiahmeadows
 
+[![Build Status](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows.svg?branch=master)](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows)
+
 My ESLint preset for most of my projects (and all new ones I create).\* You can
 look into each of the files to see what all the rules are. And yes, this project
 uses itself as its own ESLint config (and works).
