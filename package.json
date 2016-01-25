@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-isiahmeadows",
+  "version": "0.0.1",
+  "description": "My default eslintrc, for anyone who likes my opinion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "eslintrc"
+  ],
+  "author": "Isiah Meadows",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
