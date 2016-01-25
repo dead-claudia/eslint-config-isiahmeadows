@@ -1,5 +1,7 @@
 # eslint-config-isiahmeadows
 
+[![Build Status](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows.svg?branch=master)](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows)
+
 My ESLint preset for most of my projects (and all new ones I create).\* You can
 look into each of the files to see what all the rules are. And yes, this project
 uses itself as its own ESLint config (and works).
@@ -52,7 +54,7 @@ or strict checking except for `== null`, there are things I don't agree with:
     meaningful.
 
 I also feel a few things were missed, like max line length, function length, or
-block depth. I limit those to 80 characters, 20 statements, and 4 levels
+block depth. I limit those to 80 characters, 25 statements, and 4 levels
 (excluding functions), respectively. This helps further make it easier and
 clearer to keep your functions small and simple. In my experience, 99% of the
 issues I have with this are fixable through refactoring.
