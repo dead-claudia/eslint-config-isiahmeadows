@@ -52,7 +52,7 @@ or strict checking except for `== null`, there are things I don't agree with:
     meaningful.
 
 I also feel a few things were missed, like max line length, function length, or
-block depth. I limit those to 80 characters, 20 statements, and 4 levels
+block depth. I limit those to 80 characters, 25 statements, and 4 levels
 (excluding functions), respectively. This helps further make it easier and
 clearer to keep your functions small and simple. In my experience, 99% of the
 issues I have with this are fixable through refactoring.
