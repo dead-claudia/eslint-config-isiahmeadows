@@ -9,9 +9,6 @@ uses itself as its own ESLint config (and works).
 This is a global package for anyone who wants to use my config and/or agrees
 with my code style opinions.
 
-\* Well...that's sort of a lie, since I'm in the process of merging my existing
-configs to use this one.
-
 ## Usage
 
 1.  Install ESLint and this module.
