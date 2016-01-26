@@ -7,7 +7,7 @@ module.exports = {
         // ES3
         "comma-dangle": [2, "never"],
         "dot-notation": [2, {allowKeywords: false}],
-        "quote-props": [2, "as-needed", {keywords: "true"}],
+        "quote-props": [2, "as-needed", {keywords: true}],
 
         // IE quirk
         "no-catch-shadow": 2,
