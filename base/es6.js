@@ -8,7 +8,7 @@ module.exports = {
     rules: {
         // "use strict" declarations are implicit, so this is almost a no-op.
         "strict": [2, "global"],
-        "arrow-body-style": 2,
+        "arrow-body-style": 0,
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": 2,
         "constructor-super": 2,
