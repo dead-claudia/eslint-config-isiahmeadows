@@ -19,8 +19,9 @@ with my code style opinions.
 
 2.  Create an `.eslintrc` file with one of these presets.
 
-    ```json
-    {"extends": "isiahmeadows/node"}
+    ```yml
+    ---
+    extends: isiahmeadows/node
     ```
 
 3.  Code away! :smile:
