@@ -2,12 +2,15 @@
 
 [![Build Status](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows.svg?branch=master)](https://travis-ci.org/isiahmeadows/eslint-config-isiahmeadows)
 
-My ESLint preset for most of my projects (and all new ones I create).\* You can
+My ESLint preset for most of my projects (and all new ones I create). You can
 look into each of the files to see what all the rules are. And yes, this project
 uses itself as its own ESLint config (and works).
 
 This is a global package for anyone who wants to use my config and/or agrees
 with my code style opinions.
+
+Do note that this is still 0.x and very specific to my projects, so if you
+depend on this, it's best to specify at least a minor version for any stability.
 
 ## Usage
 
@@ -127,9 +130,8 @@ in ./merge.js. And do note that each of these are standalone presets.
 -   **isiahmeadows/browser**, **isiahmeadows/worker**
 
     Presets for my web projects. If either of these are used with anything else,
-    include it first (e.g. with isiahmeadows/node or isiahmeadows/commonjs). It
-    is not advisable to use both together, as in practice, no runtime actually
-    supports both simultaneously.
+    like in Browserify, include this first (e.g. with isiahmeadows/node or
+    isiahmeadows/commonjs), because many other configs have overrides for this.
 
 -   **isiahmeadows/commonjs**
 

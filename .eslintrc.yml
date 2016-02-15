@@ -1,8 +1,3 @@
 ---
 # Best way to test a config is by dogfooding it ;)
 extends: ./node.js
-
-rules:
-    quote-props:
-        - 2
-        - consistent-as-needed
