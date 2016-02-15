@@ -62,6 +62,7 @@ module.exports = {
         "guard-for-in": 2,
         "indent": [2, 4],
         "key-spacing": 2,
+        "keyword-spacing": 2,
         "max-depth": 2,
         "max-len": [2, 80, 4],
         "max-nested-callbacks": [2, 4],
@@ -78,8 +79,6 @@ module.exports = {
         "quotes": [2, "double", "avoid-escape"],
         "radix": 2,
         "semi": [2, "never"],
-        "space-after-keywords": 2,
-        "space-before-keywords": 2,
         "space-before-function-paren": [2, {
             anonymous: "always",
             named: "never",
