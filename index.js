@@ -165,7 +165,6 @@ module.exports = {
         "linebreak-style": [2, "unix"],
         "lines-around-comment": [2, {
             beforeBlockComment: true,
-            beforeLineComment: true,
             allowBlockStart: true,
             allowBlockEnd: true,
             allowObjectStart: true,
@@ -181,7 +180,7 @@ module.exports = {
         "new-cap": 2,
         "new-parens": 2,
         "newline-after-var": 2,
-        "newline-per-chained-call": [2, {ignoreChainWithDepth: 4}],
+        "newline-per-chained-call": 0,
         "no-array-constructor": 2,
         "no-bitwise": 0, // These are usually intentional, and easy to spot.
         "no-continue": 0,
