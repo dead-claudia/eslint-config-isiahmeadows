@@ -6,6 +6,7 @@ var merge = require("../merge.js")
 
 module.exports = merge(require("./node.js"), {
     parserOptions: {
+        ecmaVersion: 6,
         ecmaFeatures: {
             arrowFunctions: true,
             binaryLiterals: true,
