@@ -82,6 +82,7 @@ module.exports = {
         }],
         "no-implicit-globals": 2, // Not relevant in ES/CommonJS modules
         "no-implied-eval": 2,
+        "no-invalid-this": 2,
         "no-iterator": 2,
         "no-labels": [2, {allowLoop: false, allowSwitch: false}],
         "no-lone-blocks": 2,
