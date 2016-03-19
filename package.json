@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-isiahmeadows",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "My default eslintrc, for anyone who likes my opinion.",
   "main": "index.js",
   "scripts": {
