@@ -2,16 +2,6 @@
 
 // The base rule set
 
-// Node's internal modules. This list is overridden for isiahmeadows/node*, but
-// it's here for safety with CommonJS, to reduce dependencies.
-var restricted = [
-    "assert", "buffer", "child_process", "cluster", "console", "constants",
-    "crypto", "dgram", "dns", "domain", "events", "fs", "http", "https",
-    "module", "net", "os", "path", "process", "punycode", "querystring",
-    "readline", "repl", "smalloc", "stream", "string_decoder", "sys", "timers",
-    "tls", "tty", "url", "util", "v8", "vm", "zlib",
-]
-
 var variablePattern = "(" + [
     "[$_]\\w*", // _ for Lodash, _private, _0, $ and $el for jQuery, etc.
     "[^\\W\\d]\\w*", // someValue, x1, etc.
@@ -141,8 +131,8 @@ module.exports = {
         "no-new-require": 2,
         "no-path-concat": 2,
         "no-process-exit": 2, // This should only be disabled for CLI scripts.
-        "no-restricted-imports": [2].concat(restricted),
-        "no-restricted-modules": [2].concat(restricted),
+        "no-restricted-imports": 0,
+        "no-restricted-modules": 0,
         "no-sync": 0,
 
         "array-bracket-spacing": 2,
