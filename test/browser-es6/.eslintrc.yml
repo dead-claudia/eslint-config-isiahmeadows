@@ -1,0 +1,4 @@
+root: true
+extends:
+    - ../../browser.js
+    - ../../es6.js

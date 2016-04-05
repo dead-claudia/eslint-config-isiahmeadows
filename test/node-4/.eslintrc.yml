@@ -1,0 +1,2 @@
+root: true
+extends: ../../node-4.js
