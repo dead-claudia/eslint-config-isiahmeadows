@@ -28,10 +28,6 @@ module.exports = {
         "object-shorthand": 2,
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
-
-        // None of the polyfills truly reduce to these ES6 low level calls.
-        "prefer-reflect": 0,
-
         "prefer-rest-params": 2,
         "prefer-spread": 2,
         "prefer-template": 2,

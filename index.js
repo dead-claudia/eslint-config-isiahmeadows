@@ -29,12 +29,12 @@ module.exports = {
         "no-inner-declarations": 2,
         "no-invalid-regexp": 2,
         "no-irregular-whitespace": 2,
-        "no-negated-in-lhs": 2,
         "no-obj-calls": 2,
         "no-regex-spaces": 2,
         "no-sparse-arrays": 2,
         "no-unexpected-multiline": 2,
         "no-unreachable": 2,
+        "no-unsafe-negation": 2,
         "use-isnan": 2,
         "valid-jsdoc": 0,
         "valid-typeof": 2,
@@ -64,6 +64,7 @@ module.exports = {
         "no-extra-label": 2,
         "no-fallthrough": 2,
         "no-floating-decimal": 2,
+        "no-global-assign": 2,
         "no-implicit-coercion": [2, {
             boolean: true, // Disallow ~list.indexOf(item)
             number: false,
@@ -80,7 +81,6 @@ module.exports = {
         "no-magic-numbers": 0, // Little too nuanced to enable.
         "no-multi-spaces": 2, // This can be disabled if it helps readability.
         "no-multi-str": 2, // Use Array.prototype.join()
-        "no-native-reassign": 2,
         "no-new-func": 2,
         "no-new-wrappers": 2,
         "no-new": 2, // Constructors should not execute, just initialize.
@@ -144,6 +144,7 @@ module.exports = {
         "computed-property-spacing": 2,
         "consistent-this": [2, "self"],
         "eol-last": 2,
+        "func-call-spacing": 2,
         "func-names": 0,
         "func-style": [2, "declaration", {allowArrowFunctions: true}],
         "id-length": 0,
@@ -185,7 +186,6 @@ module.exports = {
         "no-plusplus": 0,
         "no-restricted-syntax": 0,
         "no-whitespace-before-property": 2,
-        "no-spaced-func": 2,
         "no-ternary": 0,
         "no-trailing-spaces": 2,
         "no-underscore-dangle": 0, // This is moot with id-match.
