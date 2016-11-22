@@ -1,0 +1,2 @@
+root: true
+extends: ../../es6.js
