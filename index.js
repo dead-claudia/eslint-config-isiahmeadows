@@ -13,7 +13,7 @@ module.exports = {
         "comma-dangle": [2, "always-multiline"],
         "no-cond-assign": 2,
         "no-console": 0,
-        "no-constant-condition": 2,
+        "no-constant-condition": [2, {checkLoops: false}],
         "no-control-regex": 2,
         "no-debugger": 2,
         "no-dupe-args": 2,
