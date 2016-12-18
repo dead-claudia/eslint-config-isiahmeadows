@@ -13,6 +13,6 @@
   "author": "Isiah Meadows",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^2.0.0"
+    "eslint": "3"
   }
 }
